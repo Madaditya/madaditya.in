@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^madaditya\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.madaditya\.in$
+RewriteRule ^/?$ "https\:\/\/madaditya\.in\/" [R=301,L]
+
